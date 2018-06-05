@@ -1,7 +1,6 @@
 
-var a = 6;
-var b = 4;
-var result = a + b;
+var a = prompt("Input first number to compare.");
+var b = prompt("Input second number to compare.");
 
 if (a < b){
     document.write(a + " is less than " + b)
