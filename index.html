@@ -9,15 +9,14 @@
   <body>
       <!-- <h1>Hey this text is from index.html</h1> -->
       <script type="text/javascript" src="scripts/script.js"></script>
-      <p>
-      	<span class="input">
-          <input type="number" placeholder="Number 1" name="var 2" id="myinput1" value="">
-          <br>
-          <input type="number" placeholder="Number 2" name="Var 1" id="myinput2" value="">
-          <br>
-      		<span></span>
-      	</span>
-      </p>
+  
+
+      <div class="input-group mb-3">
+        <input type="number" class="form-control" placeholder="Number 1" id="myinput1" aria-label="Number 1" aria-describedby="basic-addon1">
+      </div>
+    <div class="input-group mb-3">
+        <input type="number" class="form-control" placeholder="Number 2" id="myinput2" aria-label="Number 2" aria-describedby="basic-addon1">
+    </div>
 
       <button type="button" onclick="calcResult();" id="calc" name="calcButton" class="btn btn-primary">Calculate</button>
       <button type="button" onclick="clearRslt();" id="calc" name="clearBtn" class="btn btn-primary">Clear results</button>
