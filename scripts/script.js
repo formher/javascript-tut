@@ -6,3 +6,8 @@ function calcResult() {
   var result = a + b;
   document.getElementById('resultField').textContent = +a + +b;
 }
+
+function clearRslt(){
+  document.getElementById('resultField').textContent = " ";
+
+}
