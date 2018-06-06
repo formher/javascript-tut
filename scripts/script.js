@@ -1,5 +1,4 @@
 
-
 function calcResult() {
   var a = document.getElementById('myinput1').value;
   var b = document.getElementById('myinput2').value;
@@ -8,6 +7,6 @@ function calcResult() {
 }
 
 function clearRslt(){
-  document.getElementById('resultField').textContent = " ";
+  document.getElementById('resultField').textContent = "";
 
 }
