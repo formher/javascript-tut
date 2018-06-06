@@ -1,9 +1,8 @@
-var a = document.getElementById('myinput1');
-var b = document.getElementById('myinput2');
-
-var result = a + b;
 
 
 function calcResult() {
-  document.getElementById('resultText').textContent = result;
+  var a = document.getElementById('myinput1').value;
+  var b = document.getElementById('myinput2').value;
+  var result = a + b;
+  document.getElementById('resultField').textContent = +a + +b;
 }
