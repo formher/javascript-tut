@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  </head>
-  <body>
-      <script type="text/javascript" src="scripts/script.js"></script>
-      <h3>Input numbers to calculate the sum.</h3>
-    <div class="input-group mb-3">
-        <span class="input-group-text" id="basic-addon1">Num 1</span>
-        <input type="number" class="form-control" id="myinput1" aria-label="Number 1" aria-describedby="basic-addon1">
-    </div>
-    <div class="input-group mb-3">
-        <span class="input-group-text" id="basic-addon1">Num 2</span>
-        <input type="number" class="form-control" id="myinput2" aria-label="Number 2" aria-describedby="basic-addon1">
-    </div>
-      <button type="button" onclick="calcResult();" id="calc" name="calcButton" class="btn btn-dark">Calculate</button>
-      <button type="button" onclick="clearRslt();" id="calc" name="clearBtn" class="btn btn-danger">Clear results</button>
-      <br>
-      <h3 id="resultField" name="resultField">Result will be shown here</h3>
 
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+  <script type="text/javascript" src="scripts/script.js"></script>
+  <h3>Input numbers to calculate the sum.</h3>
+  <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">Num 1</span>
+    <input type="number" class="form-control" id="myinput1" aria-label="Number 1" aria-describedby="basic-addon1">
+  </div>
+  <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">Num 2</span>
+    <input type="number" class="form-control" id="myinput2" aria-label="Number 2" aria-describedby="basic-addon1">
+  </div>
+  <button type="button" onclick="calcResult();" id="calc" name="calcButton" class="btn btn-dark">Calculate</button>
+  <button type="button" onclick="clearRslt();" id="calc" name="clearBtn" class="btn btn-danger">Clear results</button>
+  <br>
+  <h3 id="resultField" name="resultField">Result will be shown here</h3>
+
+</body>
+
 </html>
