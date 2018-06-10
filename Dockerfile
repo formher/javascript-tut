@@ -1,3 +1,3 @@
-FROM nginx:latest
+FROM nginx
 MAINTAINER Mher Harutyunyan <formher@gmail.com>
 COPY javascript-tut/ /usr/share/nginx/html
