@@ -7,6 +7,6 @@ function calcResult() {
 }
 
 function clearRslt(){
-  document.getElementById('resultField').textContent = "";
+  document.getElementById('resultField').textContent = "Result will be shown here";
 
 }
